@@ -1,0 +1,50 @@
+package newScanner;
+
+import java.util.Scanner;
+
+public class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	
+		int num1;
+		double num2;
+		
+		Scanner scan = new Scanner (System.in);
+		
+		System.out.print("Enter an integer: ");
+		num1 = scan.nextInt();
+		
+		System.out.print("Enter double value: ");
+		num2 = scan.nextDouble();
+		
+		System.out.println( );
+		
+		System.out.println("Using nextInt(): " + num1);
+		System.out.print("Using nextDouble(): " + num2);
+		
+		System.out.println();
+		
+		System.out.println("\nUsing nextInt() increasement 1: " + (++ num1));
+		System.out.print("Using nextDouble() decreasement 1: " + (-- num2));
+		
+		System.out.println();
+		
+		System.out.println("\nUsing nextInt() increasement 5: " + (num1 + 5));
+		System.out.print("Using nextDouble() decreasement 5: " + (num2 - 5));
+		
+		System.out.println();
+		
+		System.out.println("\nUsing nextInt() mod 10: " + ( num1 % 10));
+		System.out.println("Using nextDoyble() mod 10: " + ( num2 % 10));
+		
+		scan.close();
+		
+		
+		
+		
+		
+
+	}
+
+}
